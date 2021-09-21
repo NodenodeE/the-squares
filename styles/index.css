@@ -1,0 +1,246 @@
+body {
+    width: 1152px;
+    height: 1400px;
+}
+
+header {
+    background-color:#006E61;
+    height: 700px;
+    width: 1152px;
+    padding: 90px;
+}
+
+/*action behind the six beige containers*/
+.father_flex {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*all six containers shared features*/
+.father_features {
+    background-color: #FFC89D;
+    border-radius: 8px; 
+    height: 160px;
+    width: 468px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*shared features of the small pink boxes*/
+.fetus_features>div {
+    background-color: #F66D6C;
+    border-radius: 4px;
+    height: 78px;
+    width: 78px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*boxes in top right container*/
+.fetus_flex1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
+    height: 160px;
+    width: 468px;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.fetus_flex2 {
+    align-items: stretch;
+    display: flex;
+    gap: 20px;
+    height: 160px;
+    justify-content: center;
+    width: 468px;
+    flex-direction: row;
+}
+
+.big_bois>div {
+    background-color: #F66D6C;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 78px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fetus_flex3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    height: 160px;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.fetus_flex4 {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    gap: 87px;
+    justify-content: space-evenly;
+    height: 160px;
+    width: 468px;
+    margin-top: 10px;
+}
+.lonley_boi {
+    margin-top: 20px;
+    align-self: center;
+}
+
+.fetus_flex5 {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+    height: 160px;
+    width: 468px;
+}
+
+.big_bois>p {
+    background-color: #F66D6C;
+    border-radius: 4px;
+    height: 78px;
+    width: 78px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
+    padding-top: 20px;
+}
+
+.fetus_flex5>div>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+#lil_boi>p {
+    background-color: #F66D6C;
+    border-radius: 4px;
+    height: 60px;
+    width: 78px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 25%);
+}
+    
+.fetus_flex6 {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+    height: 160px;
+    width: 468px;
+}
+
+#middle {
+    flex-grow: 1;
+    max-width: 156px;
+}
+
+main {
+    padding: 90px;
+    width: 1152px;
+    height: 700px;
+    background-color: #949F4D;
+}
+
+/*flex action behind the 5 containers*/
+main>div {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px 20px;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*5 container squares lovely features*/
+main>div>div {
+    height: 220px;
+    width: 273px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.squares_features1 {
+    background-color: #3A668C;
+
+}
+
+.first_square_flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 220px;
+    width: 273px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    margin: 5px;
+
+}
+
+.circles_features>div {
+    background-color: #DEF66C;
+    display: flex;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+}
+
+.squares_features2 {
+    background-color: #B85E39;
+    
+}
+.second_square_flex {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    height: 156px;
+    width: 210px;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: flex-start;
+    margin: 41px;
+}
+
+.third_square_flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-between;
+    height: 220px;
+}
+
+.forth_square_flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    height: 220px;
+}
+
+.fift_square_flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 220px;
+}
